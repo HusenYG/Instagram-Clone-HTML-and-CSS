@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/d4b88ac965.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Instagram Clone | HTML - CSS</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <img src="./img/Insta.png" alt="Instagram - Logo" style="width: 103px; height: 29px;"/>
+          <div class="search-bar">
+            <form>
+              <input class="input" type="text" placeholder="&#xF002;  Search"></input>
+            </form>
+          </div>
+          <div class="nav-list">
+            <ul class="d-flex list-items">
+              <li class="nav-link"><img src="./img/home.svg" alt=""></li>
+              <li class="nav-link"><img src="./img/messenger.svg" alt=""></li>
+              <li class="nav-link"><img src="./img/explore.svg" alt=""></li>
+              <li class="nav-link"><img src="./img/heart.svg" alt=""></li>
+              <li class="nav-link"><img src="./img/01.jpg" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Main -->
+    <div id="main" class="container">
+      <div class="row">
+        <div id="main-body" class="col-md-8 col-lg-8">
+          <!-- Story -->
+          <div id="stories">
+            <div class="box">
+              <ul class="d-flex align-items-center">
+                <li class="story">
+                  <img src="./img/01.jpg" alt="" class="display-picture">
+                  <div class="user-id-story">
+                    <p>husen_yg</p>
+                  </div>
+                </li>
+                <li class="story">
+                  <img src="./img/02.jpg" alt="" class="display-picture">
+                  <div class="user-id-story">
+                    <p>mustu.u</p>
+                  </div>
+                </li>
+                <li class="story">
+                  <img src="./img/03.jpg" alt="" class="display-picture">
+                  <div class="user-id-story">
+                    <p>limdi_hussain</p>
+                  </div>
+                </li>
+                <li class="story">
+                  <img src="./img/04.jpg" alt="" class="display-picture">
+                  <div class="user-id-story">
+                    <p>jay.upadhyay</p>
+                  </div>
+                </li>
+                <li class="story">
+                  <img src="./img/05.jpg" alt="" class="display-picture">
+                  <div class="user-id-story">
+                    <p>batzz_gy</p>
+                  </div>
+                </li>
+                <li class="story">
+                  <img src="./img/06.jpg" alt="" class="display-picture">
+                  <div class="user-id-story">
+                    <p>nishreen_yg</p>
+                  </div>
+                </li>
+                <li class="story">
+                  <img src="./img/07.png" alt="" class="display-picture">
+                  <div class="user-id-story">
+                    <p>deep.santani</p>
+                  </div>
+                </li>
+                <li class="story">
+                  <img src="./img/08.jpg" alt="" class="display-picture">
+                  <div class="user-id-story">
+                    <p>ankur_kp</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Feed -->
+          <div id="feed">
+            <div class="box">
+              <div id="post">
+                <div class="page-id">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/01.jpg" alt="" class="display-picture">
+                      <div class="user-id-feed">
+                        <p>husen_yg</p>
+                        <small>Dahod</small>
+                      </div>
+                    </div>
+                    <i class="fas fa fa-ellipsis-h"></i>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <img src="./img/post1.jpg" alt="">
+                </div>
+                <div class="react d-flex align-items-center justify-content-between">
+                  <div>
+                    <img src="./img/heart.svg" alt="">
+                    <img src="./img/comment.svg" alt="">
+                    <img src="./img/share.svg" alt="">
+                  </div>
+                  <img src="./img/bookmark.svg" alt="">
+                </div>
+                <div class="likes">
+                  <p>Liked by <strong>mustu.u</strong> and <b>50,494 others</b></p>
+                </div>
+                <div class="caption">
+                  <p><strong>husen_yg</strong>  Top of the World!!</p>
+                  <small>4 hours ago</small>
+                </div>
+                <div class="comment d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa fa-laugh-beam fa-2x"></i>
+                    <form>
+                      <input type="text" placeholder="Add a comment...">
+                    </form>
+                  </div>
+                  <p>Post</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div id="post">
+                <div class="page-id">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/02.jpg" alt="" class="display-picture">
+                      <div class="user-id-feed">
+                        <p>mustu.u</p>
+                        <small>Dahod</small>
+                      </div>
+                    </div>
+                    <i class="fas fa fa-ellipsis-h"></i>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <img src="./img/post2.jpeg" alt="">
+                </div>
+                <div class="react d-flex align-items-center justify-content-between">
+                  <div>
+                    <img src="./img/heart.svg" alt="">
+                    <img src="./img/comment.svg" alt="">
+                    <img src="./img/share.svg" alt="">
+                  </div>
+                  <img src="./img/bookmark.svg" alt="">
+                </div>
+                <div class="likes">
+                  <p>Liked by <strong>limdi_hussain</strong> and <b>50,494 others</b></p>
+                </div>
+                <div class="caption">
+                  <p><strong>mustu.u</strong>  Top of the World!!</p>
+                  <small>5 hours ago</small>
+                </div>
+                <div class="comment d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa fa-laugh-beam fa-2x"></i>
+                    <form>
+                      <input type="text" placeholder="Add a comment...">
+                    </form>
+                  </div>
+                  <p>Post</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div id="post">
+                <div class="page-id">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/03.jpg" alt="" class="display-picture">
+                      <div class="user-id-feed">
+                        <p>limdi_hussain</p>
+                        <small>Dahod</small>
+                      </div>
+                    </div>
+                    <i class="fas fa fa-ellipsis-h"></i>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <img src="./img/post3.jpeg" alt="">
+                </div>
+                <div class="react d-flex align-items-center justify-content-between">
+                  <div>
+                    <img src="./img/heart.svg" alt="">
+                    <img src="./img/comment.svg" alt="">
+                    <img src="./img/share.svg" alt="">
+                  </div>
+                  <img src="./img/bookmark.svg" alt="">
+                </div>
+                <div class="likes">
+                  <p>Liked by <strong>jay_upadhyay</strong> and <b>50,494 others</b></p>
+                </div>
+                <div class="caption">
+                  <p><strong>limdi_hussain</strong> Top of the World!!</p>
+                  <small>6 hours ago</small>
+                </div>
+                <div class="comment d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa fa-laugh-beam fa-2x"></i>
+                    <form>
+                      <input type="text" placeholder="Add a comment...">
+                    </form>
+                  </div>
+                  <p>Post</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div id="post">
+                <div class="page-id">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/04.jpg" alt="" class="display-picture">
+                      <div class="user-id-feed">
+                        <p>jay_upadhyay</p>
+                        <small>Chanod</small>
+                      </div>
+                    </div>
+                    <i class="fas fa fa-ellipsis-h"></i>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <img src="./img/post4.jpeg" alt="">
+                </div>
+                <div class="react d-flex align-items-center justify-content-between">
+                  <div>
+                    <img src="./img/heart.svg" alt="">
+                    <img src="./img/comment.svg" alt="">
+                    <img src="./img/share.svg" alt="">
+                  </div>
+                  <img src="./img/bookmark.svg" alt="">
+                </div>
+                <div class="likes">
+                  <p>Liked by <strong>batzz_gy</strong> and <b>50,494 others</b></p>
+                </div>
+                <div class="caption">
+                  <p><strong>jay_upadhyay</strong>  Top of the World!!</p>
+                  <small>7 hours ago</small>
+                </div>
+                <div class="comment d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa fa-laugh-beam fa-2x"></i>
+                    <form>
+                      <input type="text" placeholder="Add a comment...">
+                    </form>
+                  </div>
+                  <p>Post</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div id="post">
+                <div class="page-id">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/05.jpg" alt="" class="display-picture">
+                      <div class="user-id-feed">
+                        <p>batzz_gy</p>
+                        <small>Dahod</small>
+                      </div>
+                    </div>
+                    <i class="fas fa fa-ellipsis-h"></i>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <img src="./img/post5.jpeg" alt="">
+                </div>
+                <div class="react d-flex align-items-center justify-content-between">
+                  <div>
+                    <img src="./img/heart.svg" alt="">
+                    <img src="./img/comment.svg" alt="">
+                    <img src="./img/share.svg" alt="">
+                  </div>
+                  <img src="./img/bookmark.svg" alt="">
+                </div>
+                <div class="likes">
+                  <p>Liked by <strong>nishreen_yg</strong> and <b>50,494 others</b></p>
+                </div>
+                <div class="caption">
+                  <p><strong>batzz_gy</strong>  Top of the World!!</p>
+                  <small>8 hours ago</small>
+                </div>
+                <div class="comment d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa fa-laugh-beam fa-2x"></i>
+                    <form>
+                      <input type="text" placeholder="Add a comment...">
+                    </form>
+                  </div>
+                  <p>Post</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div id="post">
+                <div class="page-id">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/06.jpg" alt="" class="display-picture">
+                      <div class="user-id-feed">
+                        <p>nishreen_yg</p>
+                        <small>Dahod</small>
+                      </div>
+                    </div>
+                    <i class="fas fa fa-ellipsis-h"></i>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <img src="./img/post6.jpg" alt="">
+                </div>
+                <div class="react d-flex align-items-center justify-content-between">
+                  <div>
+                    <img src="./img/heart.svg" alt="">
+                    <img src="./img/comment.svg" alt="">
+                    <img src="./img/share.svg" alt="">
+                  </div>
+                  <img src="./img/bookmark.svg" alt="">
+                </div>
+                <div class="likes">
+                  <p>Liked by <strong>deep.santani</strong> and <b>50,494 others</b></p>
+                </div>
+                <div class="caption">
+                  <p><strong>nishreen_yg</strong>  Top of the World!!</p>
+                  <small>9 hours ago</small>
+                </div>
+                <div class="comment d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa fa-laugh-beam fa-2x"></i>
+                    <form>
+                      <input type="text" placeholder="Add a comment...">
+                    </form>
+                  </div>
+                  <p>Post</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div id="post">
+                <div class="page-id">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/07.png" alt="" class="display-picture">
+                      <div class="user-id-feed">
+                        <p>deep.santani</p>
+                        <small>Gir</small>
+                      </div>
+                    </div>
+                    <i class="fas fa fa-ellipsis-h"></i>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <img src="./img/post7.jpg" alt="">
+                </div>
+                <div class="react d-flex align-items-center justify-content-between">
+                  <div>
+                    <img src="./img/heart.svg" alt="">
+                    <img src="./img/comment.svg" alt="">
+                    <img src="./img/share.svg" alt="">
+                  </div>
+                  <img src="./img/bookmark.svg" alt="">
+                </div>
+                <div class="likes">
+                  <p>Liked by <strong>ankur_kp</strong> and <b>50,494 others</b></p>
+                </div>
+                <div class="caption">
+                  <p><strong>deep.santani</strong>  Top of the World!!</p>
+                  <small>4 hours ago</small>
+                </div>
+                <div class="comment d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa fa-laugh-beam fa-2x"></i>
+                    <form>
+                      <input type="text" placeholder="Add a comment...">
+                    </form>
+                  </div>
+                  <p>Post</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div id="post">
+                <div class="page-id">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/08.jpg" alt="" class="display-picture">
+                      <div class="user-id-feed">
+                        <p>ankur_kp</p>
+                        <small>Bilimora</small>
+                      </div>
+                    </div>
+                    <i class="fas fa fa-ellipsis-h"></i>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <img src="./img/post8.jpg" alt="">
+                </div>
+                <div class="react d-flex align-items-center justify-content-between">
+                  <div>
+                    <img src="./img/heart.svg" alt="">
+                    <img src="./img/comment.svg" alt="">
+                    <img src="./img/share.svg" alt="">
+                  </div>
+                  <img src="./img/bookmark.svg" alt="">
+                </div>
+                <div class="likes">
+                  <p>Liked by <strong>husen_yg</strong> and <b>50,494 others</b></p>
+                </div>
+                <div class="caption">
+                  <p><strong>ankur_kp</strong>  Top of the World!!</p>
+                  <small>4 hours ago</small>
+                </div>
+                <div class="comment d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa fa-laugh-beam fa-2x"></i>
+                    <form>
+                      <input type="text" placeholder="Add a comment...">
+                    </form>
+                  </div>
+                  <p>Post</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="side-bar" class="col-md-4 col-lg-4">
+          <div class="fixed col-md-3 col-lg-3">
+            <div id="profile" class="d-flex align-items-center justify-content-between">
+              <div class="d-flex align-items-center">
+                <img src="./img/01.jpg" class="profile-img">
+                <div class="account">
+                  <p>husen_yg</p>
+                  <small>Husen Garbada</small>
+                </div>
+              </div>
+              <small>Switch</small>
+            </div>
+            <div id="suggestions">
+              <div class="d-flex align-items-center justify-content-between">
+                <p>Suggestions For You</p>
+                <small>See All</small>
+              </div>
+              <div class="pages">
+                <div class="element">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/post3.jpeg" alt="" class="profile-img">
+                      <div class="id">
+                        <p>meet_thakor</p>
+                      </div>
+                    </div>
+                    <small>Follow</small>
+                  </div>
+                </div>
+              </div>
+              <div class="pages">
+                <div class="element">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/post4.jpeg" alt="" class="profile-img">
+                      <div class="id">
+                        <p>gaurav_patil</p>
+                      </div>
+                    </div>
+                    <small>Follow</small>
+                  </div>
+                </div>
+              </div>
+              <div class="pages">
+                <div class="element">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/post5.jpeg" alt="" class="profile-img">
+                      <div class="id">
+                        <p>ronak_patel</p>
+                      </div>
+                    </div>
+                    <small>Follow</small>
+                  </div>
+                </div>
+              </div>
+              <div class="pages">
+                <div class="element">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img src="./img/post6.jpg" alt="" class="profile-img">
+                      <div class="id">
+                        <p>jil_patel</p>
+                      </div>
+                    </div>
+                    <small>Follow</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="footer">
+              <small>About <span>&#183;</span> Help <span>&#183;</span> Press <span>&#183;</span> API <span>&#183;</span> Jobs <span>&#183;</span> Privacy <span>&#183;</span> Terms <span>&#183;</span><br> Locations <span>&#183;</span> Top Accounts <span>&#183;</span> Hashtags <span>&#183;</span> Language <span>&#183;</span>
+            </small>
+            <br>
+            <br>
+            <small>&copy; 2021 INSTAGRAM FROM FACEBOOK</small>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

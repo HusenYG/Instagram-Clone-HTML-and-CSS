@@ -1,0 +1,42 @@
+$border-color: #dbdbdb;
+$post-img-width: 100%;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden !important;
+}
+
+.container {
+  max-width: 80% !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+p {
+  margin-bottom: 0;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+}
+
+#feed {
+  .box {
+    margin: 0.5rem 0;
+  }
+}
